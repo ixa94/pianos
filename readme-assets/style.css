@@ -1,0 +1,116 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ 
+}
+
+#buttons{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  position: relative;
+  text-align: center;
+  
+}
+
+
+
+#first{
+  position: absolute;
+  left: 25px;
+  display: flex;
+
+}
+
+.bottons_piano{
+  border: 1px solid black;
+  height: 250px;
+  width: 50px;
+  background-color: rgb(212, 233, 233);
+  display: flex;
+
+  justify-content: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 5px 5px 5px rgb(48, 44, 44);
+  
+}
+
+
+.dos{
+  margin-top: 260px;
+  text-align: center;
+  display: none;
+}
+
+#second{
+  position: absolute;
+  left: 178px;
+  display: flex;
+}
+
+.bottons_piano1{
+  background-color: rgb(0, 0, 0);
+  height: 110px;
+  width: 25px;
+  margin: 0 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 5px 5px 5px rgb(48, 44, 44);
+}
+
+#third{
+  position: absolute;
+  left: 387px;
+  display: flex;
+}
+
+#fourth{
+  position: absolute;
+  left: 545px;
+  display: flex;
+}
+
+#bottom_button{
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons_bottom{
+  width: 50px;
+  margin: 0 5px;
+}
+
+
+.d{
+  background-color: rgb(255, 0, 55);
+}
+
+.l{
+  background-color: blue;
+
+}
+.m{
+  background-color: green;
+}
+
+.s{
+  background-color: cadetblue;
+}
+
+.r{
+  background-color: chocolate;
+}
+
+.f{
+  background-color: darkgoldenrod ;
+}
